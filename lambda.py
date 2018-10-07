@@ -2,6 +2,15 @@ import json
 import pizzapi
 from pizzapi import Customer, Address, Order, PaymentObject
 
+def lambda_handler(event, context):
+
+	order_pizza()
+
+	return {
+		"statusCode": 200,
+		"body": json.dumps('Success')
+	}
+
 def orderPizza():
 	print "starting to order the pizza"
 	file = open("info.json").read()
@@ -20,4 +29,3 @@ def orderPizza():
 	order.pay_with()
 	print "order was succesful"
 
-orderPizza()
