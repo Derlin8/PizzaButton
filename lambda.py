@@ -27,5 +27,5 @@ def orderPizza():
 
 	card = PaymentObject(values["cc_number"], values["cc_expiration"], values["cc_security"], values["cc_zip"])
 	order.pay_with()
-	print "order was succesful"
+	print "congrats! order was succesful"
 
