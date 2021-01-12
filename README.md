@@ -5,7 +5,6 @@ IoT button required to execute Domino's Restraunt API to order a simple pepperon
 
 <img src = "https://github.com/Derlin8/PizzaButton/blob/master/pepperoni_pizza.jpg?raw=true" width = 500>
 
-![Pizza](https://github.com/Derlin8/PizzaButton/blob/master/pepperoni_pizza.jpg?raw=true)
 
 
 
